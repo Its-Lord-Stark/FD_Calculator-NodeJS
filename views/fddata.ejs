@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FD Data</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        .data-item {
+            margin-bottom: 10px;
+        }
+        .data-label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>FD Data</h1>
+        <div class="data-item">
+            <span class="data-label">Email:</span> <%= email %>
+        </div>
+        <div class="data-item">
+            <span class="data-label">Fixed Deposit:</span> <%= fixedDeposit %>
+        </div>
+        <div class="data-item">
+            <span class="data-label">Interest Rate:</span> <%= interestRate %>%
+        </div>
+        <div class="data-item">
+            <span class="data-label">Start Date:</span> <%= startDate %>
+        </div>
+        <div class="data-item">
+            <span class="data-label">End Date:</span> <%= endDate %>
+        </div>
+        <div class="data-item">
+            <span class="data-label">Years:</span> <%= years %>
+        </div>
+        <div class="data-item">
+            <span class="data-label">Simple Interest:</span> <%= simpleInterest %>
+        </div>
+        <div class="data-item">
+            <span class="data-label">Total Amount:</span> <%= totalAmount %>
+        </div>
+    </div>
+</body>
+</html>
